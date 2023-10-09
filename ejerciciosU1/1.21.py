@@ -2,7 +2,7 @@
 
 
 
-
+#[Inicio:fin:paso(-1)]
 
 
 def main():
