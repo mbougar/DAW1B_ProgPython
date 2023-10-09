@@ -8,12 +8,10 @@ def main():
     print(name.lower())
     print(name.upper())
     list = []
-    list = name.split(" ")
-    counter = 0
+    list = name.split(" ") 
     name = ""
     for i in list:
-        name = name + list[counter].capitalize() + " "
-        counter +=1
+        name += i.capitalize() + " "   
     print(name)
     
 
