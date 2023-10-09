@@ -12,7 +12,7 @@ def main():
     counter = 0
     name = ""
     for i in list:
-        name = name + list[counter] + " "
+        name = name + list[counter].capitalize() + " "
         counter +=1
     print(name)
     

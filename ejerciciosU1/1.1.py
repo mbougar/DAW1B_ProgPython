@@ -1,9 +1,10 @@
 
 
+
+
 def main():
     name = input("Escribe tu nombre: ")
-    print("Hola, "+ name + ".")
-
+    print(f"Hola, {name}.")
 
 if __name__ == "__main__":
-    main()
+    main()    
