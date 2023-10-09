@@ -7,7 +7,7 @@
 def main():
     precioHabitual = float(3.49)
     barras = int(input("Introduzca la cantidad de barras de pan no fresco que se han vendido: "))
-    print(f"El precio habitual de una barra de pan es {precioHabitual}€, el descuento al pan no fresco es 60%, y el coste final de las barras de pan es {round(barras*(precioHabitual*0.4),2)}€")
+    print(f"El precio habitual de una barra de pan es {precioHabitual}€, el descuento al pan no fresco es del 60%, y el coste final de las barras de pan es {round(barras*(precioHabitual*0.4),2)}€")
 
 
 if __name__ == "__main__":
