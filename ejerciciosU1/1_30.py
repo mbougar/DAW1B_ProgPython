@@ -38,7 +38,7 @@ def main():
         print("Dame un numero compatible (mayor que 0): ")
         numTotal = int(input("Intruduzca un número de inicio: "))
     contador = 1
-    cadenaSerie = str(numInicio) + "-"
+    cadenaSerie = "SERIE => " + str(numInicio) + "-"
     while(contador <= numTotal-2):
         cadenaSerie = cadenaSerie + str(numInicio+numIncremento*contador)
         if (contador!= numTotal-2):
