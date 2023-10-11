@@ -9,19 +9,21 @@ Inicio
     Escribe ("Intruduzca un número de inicio, un incremento y un total de la serie: ")
     Lee numInicio
     Lee numIncremento
-    Mientras (numIncremento == 0) hacer:
+    Mientras (numIncremento == 0) hacer
         Escribe ("Dame un numero compatible (mayor que 0): ")
         Lee numIncremento
     Lee numTotal
-    Mientras (numTotal == 0) hacer:
+    Mientras (numTotal == 0) hacer
         Escribe ("Dame un numero compatible (mayor que 0): ")
         Lee numTotal
     contador = 2
-    cadenaSerie = numInicio + "-"
-    Mientras (contador <= numTotal-1) hacer:
-        cadenaSerie = (numInicio+numIncremento*contador) + ".."
-        contador += 1
-
+    cadenaSerie = "SERIE => " + numInicio + "-"
+    Mientras (contador <= numTotal-2) hacer
+        cadenaSerie = cadenaSerie + (numInicio+numIncremento*contador)
+        Si (contador!= numTotal-2) entonces:
+            cadenaSerie = cadenaSerie + ".."
+        contador = contador + 1
+    cadenaSerie = cadenaSerie "-" + (numInicio+numIncremento*contador)
     Escribe (cadenaSerie)
 Fin
 """

@@ -9,9 +9,9 @@ Inicio
     Escribe ("Dame un nombre y una edad: ")
     Lee nombre
     Lee edad
-    Si (nombre == "") entonces:
+    Si (nombre == "") entonces
         nombre = "Desconocido"
-    Mientras (edad < 0 or edad > 125) hacer:
+    Mientras (edad < 0 or edad > 125) hacer
         Escribe ("Dame una edad compatible (entre 0 y 125 años): ")
         Lee edad
 
