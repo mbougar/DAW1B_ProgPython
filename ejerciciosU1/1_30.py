@@ -49,6 +49,6 @@ def main():
     cadenaSerie += "-" + str(numInicio+numIncremento*contador)
     print(cadenaSerie)
 
-
+#Funcion principal
 if __name__ == "__main__":
     main()

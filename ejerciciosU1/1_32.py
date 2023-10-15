@@ -48,3 +48,4 @@ for i in range(numeroIni, numeroFin+1):
     print(i, end="")
     if (i != numeroFin):
         print("-", end="")
+
