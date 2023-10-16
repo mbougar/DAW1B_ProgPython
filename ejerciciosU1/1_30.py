@@ -32,13 +32,13 @@ def main():
     print("Intruduzca un número de inicio, un incremento y un total de la serie: ")
     numInicio = int(input("Intruduzca un número de inicio: "))
     numIncremento = int(input("Intruduzca un número de incremento: "))
-    while(numIncremento == 0):
+    while(numIncremento <= 0):
         print("Dame un numero compatible (mayor que 0): ")
         numIncremento = int(input("Intruduzca un número de incremento: "))
-    numTotal = int(input("Intruduzca un número de inicio: "))
-    while(numTotal == 0):
+    numTotal = int(input("Intruduzca un número total: "))
+    while(numTotal <= 0):
         print("Dame un numero compatible (mayor que 0): ")
-        numTotal = int(input("Intruduzca un número de inicio: "))
+        numTotal = int(input("Intruduzca un número total: "))
     contador = 1
     cadenaSerie = "SERIE => " + str(numInicio) + "-"
     while(contador <= numTotal-2):
