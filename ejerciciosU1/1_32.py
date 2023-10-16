@@ -34,9 +34,9 @@ Fin
 """
 
 
-print("Introduce un numero: ")
+print("Introduce un numero: ", end="")
 x = int(input())
-print("Introduce otro numero: ")
+print("Introduce otro numero: ", end="")
 y = int(input())
 if (x>=y):
     numeroIni = y
